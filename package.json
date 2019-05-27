@@ -1,0 +1,26 @@
+{
+  "name": "javascript_tests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test-arr": "mocha --bail --reporter nyan spec/arrtest.js",
+    "test-obj": "mocha spec/objtest.js",
+    "test-func": "mocha --bail --reporter nyan spec/functest.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/milkncookiesss/javascript_tests.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/milkncookiesss/javascript_tests/issues"
+  },
+  "homepage": "https://github.com/milkncookiesss/javascript_tests#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.1.4"
+  }
+}
